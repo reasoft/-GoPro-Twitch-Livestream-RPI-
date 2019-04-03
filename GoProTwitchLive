@@ -1,0 +1,33 @@
+#########################################
+##                                     ##
+##          GOPRO TWITCH LIVE          ##
+##                 with                ##
+##             RASPBERRY PI            ##
+##                                     ##
+##                                     ##
+#########################################
+
+## SETTINGS
+##
+## Twitch Settings
+
+## Referer to https://stream.twitch.tv/ingests/
+twitch-ingest-server="" 
+
+##  Referer to https://www.twitch.tv/rewindtm/dashboard/settings
+twitch-streamkey=""
+
+
+
+## GOPRO Stream Settings
+##  1   Mbps = 1000000
+##  1.2 Mbps = 1200000
+##  1.6 Mbps = 1600000
+##  2   Mbps = 2000000
+##  2.4 Mbps = 2400000
+## http://10.5.5.9/gp/gpControl/setting/62/2000000
+## Default set to 2Mbps
+stream-bitrate="1000000" 
+
+## 720p (1280x720) http://10.5.5.9/gp/gpControl/setting/64/7
+stream-window="7" 
